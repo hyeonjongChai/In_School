@@ -1,2 +1,2 @@
-#Algorithm
+# Algorithm
 '알고리즘' 수업의 과제물을 정리했습니다.
