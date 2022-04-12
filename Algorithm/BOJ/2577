@@ -1,0 +1,11 @@
+# 2577	 숫자의 개수
+
+A = int(input())
+B = int(input())
+C = int(input())
+
+num = list(str(A * B * C))
+
+for check in range(10):
+    num_check = num.count(str(check))
+    print(num_check)

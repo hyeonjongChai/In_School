@@ -1,0 +1,11 @@
+# 11720	 숫자의 합
+
+N = int(input())
+M = str(input())
+
+total = 0 
+
+for i in list(M):
+    total += int(i)
+
+print(total)

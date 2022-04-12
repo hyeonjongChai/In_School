@@ -1,0 +1,19 @@
+# 2292	 벌집
+
+N = int(input())
+check = 1
+room = 1
+six = 6
+
+if N == 1:
+    print(1)
+    
+else:
+    while True:
+        room += 1
+        check = check + six
+        
+        if N <= check:
+            print(room)
+            break
+        six += 6    

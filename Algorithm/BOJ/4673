@@ -1,0 +1,18 @@
+# 4673	 셀프 넘버
+
+# 생성자
+
+def d(n):
+    a = 0
+    for i in list(str(n)):
+        a = a + int(i)
+    return int(n) + a
+
+b = []
+for j in range(1, 10001):
+    k = d(j)
+    b.append(k)
+    
+for z in range(1, 10001):
+    if z not in b:
+        print(z)

@@ -1,0 +1,15 @@
+# 3052	 나머지
+
+rest = []
+rest_num = []
+
+for i in range(10):
+    a = int(input())
+    b = a % 42
+    rest.append(b)
+    
+for j in rest:
+    if j not in rest_num:
+        rest_num.append(j)
+        
+print(len(rest_num))  

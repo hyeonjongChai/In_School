@@ -1,0 +1,10 @@
+# 256번	 최댓값
+input_list = []
+
+for i in range(9):
+    input_list.append(int(input()))
+    
+    max_input = max(input_list)
+    
+print(max_input)
+print(input_list.index(max_input) + 1)

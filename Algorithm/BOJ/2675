@@ -1,0 +1,14 @@
+# 	2675	 문자열 반복
+t = int(input())
+
+for i in range(t):
+    T, R = input().split()
+    T = int(T)
+    R = str(R)
+    string = ''
+
+    for i in R:
+        string = string + i * T
+
+    print(string)
+

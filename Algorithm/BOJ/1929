@@ -1,0 +1,17 @@
+# 1929	 소수 구하기
+
+def is_prime(n):
+    if n > 1:
+        for num in range(2, int(n**0.5)+1):
+            if n % num == 0:
+                return False
+    else:
+        return False
+    
+    return True
+
+M, N = map(int, input().split())
+
+for _ in range(M, N+1):
+    if is_prime(_) == True:
+        print(_)

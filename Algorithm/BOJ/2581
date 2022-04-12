@@ -1,0 +1,26 @@
+	# 2581	 소수
+  
+  def is_prime(n):
+    if n > 1:
+        for num in range(2, n):
+            if n % num == 0:
+                return False
+    else:
+        return False
+    
+    return True
+
+M = int(input())
+N = int(input())
+prime_MN = []
+
+for MN in range(M, N + 1):
+    if is_prime(MN) == True:
+        prime_MN.append(MN)
+        
+if len(prime_MN) == 0:
+    print(-1)
+    
+else:
+    print(sum(prime_MN))
+    print(prime_MN[0])

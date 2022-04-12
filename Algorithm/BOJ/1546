@@ -1,0 +1,13 @@
+# 1546	 평균
+
+N = int(input())
+real_score = list(map(int, input().split()))
+total = 0
+
+M = max(real_score)
+
+for i in real_score:
+    t = (i / M) * 100
+    total += t
+    
+print(total / N)    

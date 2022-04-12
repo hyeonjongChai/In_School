@@ -1,0 +1,8 @@
+# 10818 최소, 최대
+
+N = int(input())
+test_num = input().split()
+test_num = map(int,  test_num)
+test_num = list(test_num)
+
+print(min(test_num), max(test_num))

@@ -1,0 +1,14 @@
+#2231	 분해합
+
+N = int(input())
+result = 0
+
+for i in range(1, N+1):
+    nums = list(map(int, str(i)))
+    sumnums = i + sum(nums)
+    if sumnums == N:
+        result = i
+        print(nums)
+        break
+
+print(result)
