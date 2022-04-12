@@ -1,4 +1,1 @@
-# baekjun_judge repository
-
-# solving baekjun judge's problems for inhancing my algorithm ability(mainly with python) 
-# https://www.acmicpc.net/
+'알고리즘' 수업의 과제물을 정리했습니다.
